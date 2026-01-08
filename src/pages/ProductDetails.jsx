@@ -158,7 +158,7 @@ export default function ProductDetails() {
 
             {/* Price Block */}
             <div className="flex items-baseline gap-4 mb-8">
-              <span className="text-4xl font-bold text-slate-900">₹{product.price}</span>
+              <span className="text-4xl font-bold text-blue-700">₹{product.price}</span>
               {product.oldPrice && (
                 <>
                   <span className="text-xl text-slate-400 line-through font-light">₹{product.oldPrice}</span>

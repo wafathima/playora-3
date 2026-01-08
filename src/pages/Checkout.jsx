@@ -259,7 +259,7 @@ onApprove: async (data) => {
       toast.success("Payment successful!");
       setIsSuccess(true);
       setCart([]);
-      setTimeout(() => navigate("/orders"), 1500);
+      setTimeout(() => navigate("/orders"), 3000);
     } else {
       toast.error("Payment failed");
     }
